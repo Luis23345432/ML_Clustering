@@ -1,0 +1,7 @@
+train_zip: https://drive.google.com/file/d/1rkRaRlPB5INfNVf_GPhVar_hymUWG9bZ/view?usp=sharing
+validation_zip: https://drive.google.com/file/d/1eRHUqPn1zSkcETSj-xBnnPsm-meIDQ2a/view?usp=sharing
+test_zip: https://drive.google.com/file/d/1kBbC2xMBopRfr393lRm0kP-t3qpoqY-T/view?usp=sharing
+
+train_dir: https://drive.google.com/drive/folders/1n5yaFEuSp2yBTSRo7uPhTRPAPXl-Iy74?usp=sharing
+validation_dir: https://drive.google.com/drive/folders/1JnLhj1MZO_sNZS02y9Fn-lOgQv4S7r17?usp=sharing
+test_dir: https://drive.google.com/drive/folders/1lC0CxE7lfODa-bWinGyEbB-4aE3HDcuv?usp=sharing
