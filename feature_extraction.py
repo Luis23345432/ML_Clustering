@@ -13,9 +13,12 @@ def extract_features(csv_path, output_folder):
     os.makedirs(output_folder, exist_ok=True)
     df = pd.read_csv(csv_path)
 
-    # Guardar las rutas de video en un archivo temporal
-    txt_path = f"{output_folder}/video_paths.txt"
-    df["path"].to_csv(txt_path, index=False, header=False)
+    # **Cambio: Extraer solo el ID del video (antes del "_")**
+    df["id"] = df["path"].apply(lambda x: os.path.basename(x).split("_")[0])
+
+    # Guardar los IDs de video en un archivo temporal
+    txt_path = f"{output_folder}/video_ids.txt"
+    df["id"].to_csv(txt_path, index=False, header=False)
 
     # Ejecutar `video_features` mediante subprocess
     command = [
